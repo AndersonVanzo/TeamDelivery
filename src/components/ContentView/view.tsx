@@ -1,21 +1,22 @@
-import React, { memo } from "react";
-import { StyleSheet, View } from "react-native";
+import React from "react";
+import { StyleProp, StyleSheet, View } from "react-native";
 
 interface ContentViewProps {
   children: JSX.Element | Array<JSX.Element>;
+  styles?: StyleProp<any>;
 }
 
-const ContentView = ({ children }: ContentViewProps): JSX.Element => {
+const ContentView = ({ children, styles }: ContentViewProps): JSX.Element => {
   return (
-    <View style={styles.container}>
+    <View style={[defaultStyles.container, styles]}>
       {children}
     </View>
   );
 };
 
-export default memo(ContentView);
+export default React.memo(ContentView);
 
-const styles = StyleSheet.create({
+const defaultStyles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,

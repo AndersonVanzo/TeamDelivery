@@ -20,6 +20,10 @@ export const globalStyles = StyleSheet.create({
   listContent: {
     paddingHorizontal: 20,
   },
+  listContentOnly: {
+    paddingHorizontal: 20,
+    paddingTop: 20,
+  },
   card: {
     flex: 1,
     backgroundColor: colors.white,
@@ -49,6 +53,13 @@ export const globalStyles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "400",
     lineHeight: 16,
+  },
+  cardText: {
+    color: colors.black,
+    fontSize: 14,
+    fontWeight: "400",
+    lineHeight: 16,
+    marginBottom: 14,
   },
   cardButton: {
     width: "100%",
