@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { colors } from "../../commons/colors";
 
@@ -12,9 +12,9 @@ const Header = ({ title }: HeaderProps): JSX.Element => {
       <Text style={styles.title}>{title}</Text>
     </View>
   );
-}
+};
 
-export default memo(Header)
+export default React.memo(Header);
 
 const styles = StyleSheet.create({
   container: {

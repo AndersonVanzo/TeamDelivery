@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import useFooterViewController from "./view.controller";
 import { colors } from "../../commons/colors";
@@ -24,7 +24,7 @@ const FooterView = (): JSX.Element => {
   );
 };
 
-export default memo(FooterView);
+export default React.memo(FooterView);
 
 const styles = StyleSheet.create({
   container: {
