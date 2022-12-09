@@ -12,7 +12,7 @@ export default () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName={"Home"} screenOptions={{ headerShown: false, animation: "none" }}>
+      <Stack.Navigator initialRouteName={"Profile"} screenOptions={{ headerShown: false, animation: "none" }}>
         <Stack.Screen name={"Home"} component={HomeView} />
         <Stack.Screen name={"Deliveries"} component={DeliveriesView} />
         <Stack.Screen name={"Orders"} component={OrdersView} />

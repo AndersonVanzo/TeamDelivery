@@ -83,5 +83,8 @@ export const globalStyles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.lightGray,
     paddingHorizontal: 18,
+    color: colors.black,
+    fontSize: 14,
+    fontWeight: "400",
   },
 });
