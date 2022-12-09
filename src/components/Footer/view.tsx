@@ -8,16 +8,16 @@ const FooterView = (): JSX.Element => {
 
   return (
     <View style={styles.container}>
-      <TouchableOpacity activeOpacity={0.75} onPress={viewModel.goToHome}>
+      <TouchableOpacity activeOpacity={0.75} style={styles.button} onPress={viewModel.goToHome}>
         <Text style={styles.buttonText}>Início</Text>
       </TouchableOpacity>
-      <TouchableOpacity activeOpacity={0.75} onPress={viewModel.goToDeliveries}>
+      <TouchableOpacity activeOpacity={0.75} style={styles.button} onPress={viewModel.goToDeliveries}>
         <Text style={styles.buttonText}>Entregas</Text>
       </TouchableOpacity>
-      <TouchableOpacity activeOpacity={0.75} onPress={viewModel.goToOrders}>
+      <TouchableOpacity activeOpacity={0.75} style={styles.button} onPress={viewModel.goToOrders}>
         <Text style={styles.buttonText}>Pedidos</Text>
       </TouchableOpacity>
-      <TouchableOpacity activeOpacity={0.75} onPress={viewModel.goToProfile}>
+      <TouchableOpacity activeOpacity={0.75} style={styles.button} onPress={viewModel.goToProfile}>
         <Text style={styles.buttonText}>Perfil</Text>
       </TouchableOpacity>
     </View>
@@ -38,7 +38,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   button: {
+    alignItems: "center",
     height: 48,
+    justifyContent: "center",
     width: 48,
   },
   buttonText: {

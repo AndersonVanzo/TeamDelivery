@@ -10,7 +10,7 @@ import Footer from "../../components/Footer/view";
 const OrdersView = (): JSX.Element => {
   return (
     <SafeAreaView style={globalStyles.container}>
-      <Header title={"Team Delivery"} />
+      <Header title={"Pedidos"} />
       <ContentView styles={{ marginTop: -20 }}>
         <FlatList
           style={globalStyles.listContainer}
