@@ -77,4 +77,11 @@ export const globalStyles = StyleSheet.create({
     fontWeight: "400",
     lineHeight: 19,
   },
+  input: {
+    height: 48,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: colors.lightGray,
+    paddingHorizontal: 18,
+  },
 });
