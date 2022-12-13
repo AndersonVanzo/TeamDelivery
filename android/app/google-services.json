@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "865495792563",
+    "project_id": "teamdelivery-1d093",
+    "storage_bucket": "teamdelivery-1d093.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865495792563:android:611be4ab745b01a747e9c6",
+        "android_client_info": {
+          "package_name": "com.teamdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865495792563-bv92dtoqkvsr03dfqu29ovhtok2s5dgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamdelivery",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "865495792563-rgde205u32ictpa5al76htngmcuooauj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKb8LeF-keLX_ph96fB10G0DFawZYMsuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865495792563-rgde205u32ictpa5al76htngmcuooauj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

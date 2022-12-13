@@ -1,9 +1,9 @@
 import React from "react";
-import { StyleProp, StyleSheet, View } from "react-native";
+import { StyleProp, StyleSheet, View, ViewStyle } from "react-native";
 
 interface ContentViewProps {
   children: JSX.Element | Array<JSX.Element>;
-  styles?: StyleProp<any>;
+  styles?: StyleProp<ViewStyle>;
 }
 
 const ContentView = ({ children, styles }: ContentViewProps): JSX.Element => {
